@@ -1,4 +1,4 @@
-﻿namespace FSharp.ProjectTemplate
+namespace FsPrimo
 
 /// Documentation for my library
 ///

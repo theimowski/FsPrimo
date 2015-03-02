@@ -4,19 +4,19 @@
 // --------------------------------------------------------------------------------------
 
 // Binaries that have XML documentation (in a corresponding generated XML file)
-let referenceBinaries = [ "##ProjectName##.dll" ]
+let referenceBinaries = [ "FsPrimo.dll" ]
 // Web site location for the generated documentation
-let website = "/##ProjectName##"
+let website = "/FsPrimo"
 
-let githubLink = "http://github.com/##GitHome##/##GitName##"
+let githubLink = "http://github.com/theimowski/FsPrimo"
 
 // Specify more information about your project
 let info =
-  [ "project-name", "##ProjectName##"
-    "project-author", "##Author##"
-    "project-summary", "##Summary##"
+  [ "project-name", "FsPrimo"
+    "project-author", "Tomasz Heimowski"
+    "project-summary", "Type Provider for wrapping primitive types to restrict possible range of valid values"
     "project-github", githubLink
-    "project-nuget", "http://nuget.org/packages/##ProjectName##" ]
+    "project-nuget", "http://nuget.org/packages/FsPrimo" ]
 
 // --------------------------------------------------------------------------------------
 // For typical project, no changes are needed below
